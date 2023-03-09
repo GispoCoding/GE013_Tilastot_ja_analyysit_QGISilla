@@ -29,7 +29,7 @@ Kurssille osallistuvien tulee tuntea paikkatiedon ja QGIS-paikkatieto-ohjelmisto
 Voit ladata harjoituksissa käytettävän kurssihakemiston tästä linkistä:
 
 ::: note-box
-[Kurssihakemisto.zip](https://drive.google.com/uc?id=1xBgD0GDEC1oi21jm_I3BNGNvBFV808f7&export=download)
+[Kurssihakemisto.zip](https://drive.google.com/uc?id=1bzHWPauYUZq_pju6hPMRWGHA8Uv26gVp&export=download)
 :::
 
 ## Lukuohje
