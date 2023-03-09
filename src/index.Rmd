@@ -24,6 +24,14 @@ Kurssilla syvennytään QGIS-paikkatieto-ohjelmiston tilastoihin ja analyyseihin
 
 Kurssille osallistuvien tulee tuntea paikkatiedon ja QGIS-paikkatieto-ohjelmiston perusteet. Kurssi sopii etenkin niille, jotka käsittelevät paljon erilaisia tilastoja/taulukkoja ja haluavat automatisoida prosessejaan.
 
+## Kurssimateriaalien lataaminen
+
+Voit ladata harjoituksissa käytettävän kurssihakemiston tästä linkistä:
+
+::: note-box
+[Kurssihakemisto.zip](https://drive.google.com/uc?id=1xBgD0GDEC1oi21jm_I3BNGNvBFV808f7&export=download)
+:::
+
 ## Lukuohje
 
 **Web-selaimessa** suoritettavat komennot on merkitty seuraavasti:

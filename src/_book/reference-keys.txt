@@ -1,5 +1,6 @@
 tilastot-ja-analyysit-qgisillä
 tervetuloa-qgis-jatkokurssille
+kurssimateriaalien-lataaminen
 lukuohje
 mistä-lisätietoja
 virheet
