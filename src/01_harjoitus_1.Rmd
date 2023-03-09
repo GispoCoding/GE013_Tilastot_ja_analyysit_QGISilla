@@ -12,11 +12,11 @@ Koulutettava löytää ja tunnistaa QGIS-ohjelmiston yleiset, profiilikohtaiset 
 
 30 minuuttia.
 
-## **Valmistautuminen**
+## Valmistautuminen
 
 Avaa uusi QGIS-projekti (**Projekti \> Uusi**). Tässä harjoituksessa ei käsitellä aineistoja, joten projektia ei tarvitse tallentaa.
 
-## **Käyttöliittymän räätälöinti**
+## Käyttöliittymän räätälöinti
 
 QGIS käyttää oletuksena sitä kieltä, jolle koneen käyttöjärjestelmä on lokalisoitu. Näissä harjoituksissa on käytetty suomenkielistä versiota. Suomennos ei kuitenkaan ole täydellinen, ja joskus ohjeita ja vinkkejä on helpompi etsiä englanniksi. Halutessasi voit vaihtaa QGISin kielen valitsemalla yläpalkista **Asetukset \> Valinnat \> Korvaa järjestelmän alueasetukset**. Kielen lisäksi voit asettaa lokaalit numero-, valuutta- ja mittayksikköasetukset. Tämän toiminnon päivittyminen vaatii QGISin uudelleenkäynnistyksen.
 
@@ -30,19 +30,19 @@ QGIS käyttää oletuksena sitä kieltä, jolle koneen käyttöjärjestelmä on 
 
 Kun käytät QGISiä jonkin aikaa, huomaat mitkä ovat useimmin tarvitsemasi paneelit ja työkalut. Voit valita näiden näkyvyyden ja asetella ne näytölle mieleiseesi järjestykseen. Klikkaa yläpalkista **Näytä \> Paneelit**. Voit luoda esimerkiksi **spatiaalisia kirjanmerkkejä** jotka vievät sinut aina tiettyyn sijaintiin, tai pitää **Tason tyylit** -ikkunan koko ajan näkyvissä omassa paneelissaan.
 
-## **Muokkauksen yleisasetukset**
+## Muokkauksen yleisasetukset
 
 Muokkauksen toimintoa ja muita yleisiä muokkaustyöasetuksia voit muuttaa päävalikon ikkunassa **Asetukset \> Valinnat \> Digitointi**. Jos et esimerkiksi halua, että ominaisuustietojen muokkaus tulee esiin jokaisen polygonin piirtämisen jälkeen niin rastita **Älä näytä ominaisuustietojen pop-up lomaketta kohteen luonnin jälkeen**. Jätä se kuitenkin päälle tällä kertaa. Kokeile myös vaihtaa kohteiden muokkausväri keltaiseksi (Kuminauha) ja **Taitepisteen symbolin** tyyli ja koko. Paina **OK**, niin asetukset tulevat voimaan.
 
 ![](img/harjoitus_1/image2.png)
 
-## **Käyttäjäprofiilit**
+## Käyttäjäprofiilit
 
 Jos käytät QGISia useampaan toisistaan poikkeavaan tarkoitukseen, tai vaikkapa useampi henkilö käyttää samaa konetta, voit luoda erilaisia käyttäjäprofiileja. Profiiliin tallentuvat tekemäsi kieli-, digitointi- ja  muut asetukset. Profiileihin voi myös luoda erilaisia etukäteen määriteltyjä tietokantayhteyksiä tai rajapintapalveluita sekä tallentaa oletushakemiston, josta aineistoja haetaan ja johon ne tallennetaan.
 
 Profiileja voi luoda ja tallentaa valikosta **Asetukset \> Käyttäjäprofiilit**. Vaihtaessasi profiilia QGIS avaa uuden ikkunan.
 
-## **Pikanäppäimet**
+## Pikanäppäimet
 
 Voit tallentaa itsellesi pikanäppäinyhdistelmiä joilla esim. avata usein käytetty valikko tai työkalu. Pikanäppäimiä pääsee hallinnoimaan valikosta **Asetukset \> Pikanäppäimet.**
 
@@ -50,7 +50,7 @@ Voit tallentaa itsellesi pikanäppäinyhdistelmiä joilla esim. avata usein käy
 
 Etsi haluamasi toiminto, valitse se listasta, klikkaa Muuta ja anna valitsemasi näppäinyhdistelmä. Jos se on jo käytössä, voit muuttaa kyseisen yhdistelmän merkitystä tai valita jonkin uuden yhdistelmän.
 
-## **Taustakarttoja lisäosien avulla**
+## Taustakarttoja lisäosien avulla
 
 QGISin lisäosat tarjoavat käyttöösi suuren valikoiman erilaisia taustakarttoja. Eri rajapinnoista saatavat taustakartat toimivat samaan tapaan kuin projektiin avatut rasteritasot: niiden läpinäkyvyyttä voi säätää, mutta ne eivät sisällä ominaisuustietoja.
 

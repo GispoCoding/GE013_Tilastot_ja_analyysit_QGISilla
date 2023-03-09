@@ -12,9 +12,9 @@ Koulutettava osaa etsiä ja hyödyntää tarkoitukseensa sopivia analyysityökal
 
 30 minuuttia.
 
-## **Valmistautuminen**
+## Valmistautuminen
 
-Avaa uusi QGIS-projekti (**Projekti \> Uusi**) ja tallenna se nimellä \"**QGIS-harjoitus 3**\". Avaa projektiisi kurssihakemiston kansiosta seuraavat aineistot:
+Avaa uusi QGIS-projekti (**Projekti \> Uusi**) ja tallenna se nimellä "**QGIS-harjoitus 3**". Avaa projektiisi kurssihakemiston kansiosta seuraavat aineistot:
 
 -   **TaajamaPiste.shp**
 
@@ -24,7 +24,7 @@ Avaa uusi QGIS-projekti (**Projekti \> Uusi**) ja tallenna se nimellä \"**QGIS-
 
 -   **HSY_vaestotietoruudukko_2019.gpkg**
 
-## **Vektorianalyysi**
+## Vektorianalyysi
 
 Tässä harjoituksessa tehdään joitakin vektorianalyyseja ja perehdytään monipuolisten analyysityökalujen maailmaan. Yleisimmin käytetyt analyysityökalut löytyvät päävalikon kohdasta **Vektori**, mutta kattavimman kokoelman QGISin, GRASSin, SAGAn ja GDALin analyysityökaluja saat näkyviin valitsemalla päävalikosta **Prosessointi \> Työkalut**. Tämä avaa Prosessointityökalut-paneelin QGISiin (yleensä oikealle puolelle käyttöliittymää), jonka kautta voit hakea erilaisia analyysejä.
 
@@ -40,13 +40,13 @@ Joskus käytettävissä aineistot eivät ole laadultaan täydellisiä. Esimerkik
 
 ![](img/harjoitus_3/image3.png)
 
-## **Tilastot**
+## Tilastot
 
 QGISin **Tilastot-paneelilla** voit tarkastella aineistosi arvojen tilastollista jakaumaa. Saat **Tilastot-paneelin** näkyviin QGISin käyttöliittymään klikkaamalla Näytä tilastollinen yhteenveto -painiketta ![](img/harjoitus_3/image4.png) tai valitsemalla päävalikosta **Näytä \> Paneelit \> Tilastot**. Avautuvassa ikkunassa valitse pudotusvalikosta **HSY_vaestotietoruudukko_2019-taso** ja sen jälkeen yksi tason attribuuttikenttä. Tarkastele esitettäviä tilastollisia tunnuslukuja. Voit myös valita aineistosta vain osan, jonka tilastoja haluat tarkastella. Valitse osa aineiston ruuduista joko kartalta tai attribuuttitaulusta, ja klikkaa **Tilastot-paneelin** ruutu **Käytetään vain valittuja kohteita** aktiiviseksi.
 
 ![](img/harjoitus_3/image5.png)
 
-## **Valinta toisen tason sijainnin perusteella**
+## Valinta toisen tason sijainnin perusteella
 
 Valitse **Hallintoalue-tasosta** yksi pääkaupunkiseudun kunta (esim. Espoo). Avaa päävalikosta **Vektori \> Tutkimuksen työkalut \> Valitse sijainnin perusteella**. Aseta parametrit: valitse ne väestötietoruudukon kohteet, jotka leikkaavat HallintoAlue-tason valittujen kohteiden kanssa. Klikkaa **Suorita**.
 
@@ -58,7 +58,7 @@ Nyt voit katsella **Tilastot-paneelissa** Espoon alueen väestötietoruutujen ti
 
 **Tilastot-paneeli** voi näyttää myös muita kuin suoraan attribuuttitaulussa näkyviä lukuja. Lausekkeen muokkaus -toiminnolla ![](img/harjoitus_3/image8.png) voit laatia monimutkaisempia tilastollisia tunnuslukuja, vaikkapa laskea asukastiheyden asukasluvun ja alueen koon perusteella.
 
-## **DataPlotly-lisäosa**
+## DataPlotly-lisäosa
 
 QGISin **DataPlotly-lisäosa** piirtää aineistostasi hajontakuvaajia, pylväsdiagrammeja ja monia muita datavisualisoinnista tuttuja esityksiä. Etsi DataPlotly **Lisäosat-valikosta** ja asenna se. Asennuksen jälkeen voit käynnistää sen **Lisäosat-valikosta**.
 
@@ -76,7 +76,7 @@ Klikkaamalla yhtä kuvaajan kohdetta sitä vastaava ruutu korostuu karttaikkunas
 
 ![](img/harjoitus_3/image13.png)
 
-## **Kohteiden etäisyys toisen tason pisteistä**
+## Kohteiden etäisyys toisen tason pisteistä
 
 Esimerkkinä vektorianalyysistä lasketaan kaikille taajamille etäisyys lähimpään lentokenttään. Etsi **Prosessointityökalut-paneelista** työkalu **Distance to nearest hub (points)** ja avaa se tuplaklikkauksella. Laita avautuvaan ikkunaan seuraavat parametrit:
 
@@ -86,15 +86,15 @@ Klikkaa sitten **Suorita**. Projektiisi syntyy uusi taso, jonka geometriat vasta
 
 ![](img/harjoitus_3/image15.png)
 
-## **Pisteiden lukumäärä**
+## Pisteiden lukumäärä
 
 Seuraavaksi lasketaan kunkin kunnan sisällä olevien taajamapisteiden lukumäärä. Valitse ylävalikosta **Vektori \> Analyysit \> Laske polygonin sisällä olevien pisteiden lkm**. Anna taas lähtöaineistot: **HallintoAlue** ja **TaajamaPiste**. Lue myös prosessin kuvaus dialogi-ikkunasta: voit painottaa laskuria jollain pisteaineiston attribuutilla tai laskea pisteaineistossa esiintyvien eri luokkien määrän. Huomaa, että voit myös asettaa uuden lukumäärä-kentän nimen. Klikkaa **Suorita**. Eniten taajamia on Lapin suurissa kunnissa, erityisesti Rovaniemellä. Syntyneen **NUMPOINTS-kentän** perusteella voit nyt tehdä vaikka teemakartan.
 
-![](img/harjoitus_3/image16.png)![]![](img/harjoitus_3/image17.png)
+![](img/harjoitus_3/image16.png)![](img/harjoitus_3/image17.png)
 
-## **Aggregointi ja sulautus**
+## Aggregointi ja sulautus
 
-**Aggregointi-työkalulla** voidaan \"leipoa\" yhteen kohteet, joilla on jokin yhteinen ominaisuustieto ja laskea samalla muista ominaisuustiedoista yhteisiä tunnuslukuja. 
+**Aggregointi-työkalulla** voidaan "leipoa" yhteen kohteet, joilla on jokin yhteinen ominaisuustieto ja laskea samalla muista ominaisuustiedoista yhteisiä tunnuslukuja. 
 
 Lisää itsellesi WFS-yhteys Tilastokeskuksen Paavo-postinumeroalueaineistoon:
 
@@ -118,13 +118,13 @@ Huomaa, että postinumeroalueet eivät aina täysin noudata kuntarajoja, joten y
 
 Jos et ole kiinnostunut ominaisuustiedoista, vaan haluat vain sulauttaa geometrioita yhteen, yksinkertaisempi työkalu on **Sulauta (dissolve)**. Se muodostaa samanlaisen omainaisuustietotaulukon kuin lähtöaineistossa, mutta valitsee vain satunnaisesti jonkin muodostajan tiedot kaikkiin kenttiin.
 
-## **Uusien kenttien laskeminen**
+## Uusien kenttien laskeminen
 
 Olemassa olevien attribuuttikenttien perusteella voi laskea uusia. Tähän käytetään **Kentän arvojen laskin** -työkalua ![](img/harjoitus_3/image21.png). Lasketaan äsken muodostetulle aggregoidulle kunta-aineistolle poligonigeometrian ja asukasluvun perusteella asukastiheys. 
 
 ![](img/harjoitus_3/image22.png)
 
-## **Päivittyvät arvot**
+## Päivittyvät arvot
 
 Kentän arvojen laskin laskee arvot annetulla kaavalla olemassa olevien tietojen perusteella. Se on kuitenkin kertaluonteinen toimenpide, ja jos myöhemmin jokin muodostajana olleista arvoista muuttuu, ei kenttä päivity.
 
@@ -138,7 +138,7 @@ Testaa lausekkeen toimintaa. Tutki jonkin polygonin ominaisuustietoja, muokkaa s
 
 ![](img/harjoitus_3/image25.png)
 
-## **Etsi omia analyysityökaluja**
+## Etsi omia analyysityökaluja
 
 Tutustu **Prosessointityökalut-paneelin** toimintoihin. Se mm. muistaa viimeksi käyttämäsi työkalut. Työkalun nimen edessä oleva symboli kertoo, minkä ohjelman valikoimaan työkalu kuuluu. Tee joitakin hakuja etsiäksesi itseäsi kiinnostavia työkaluja. Huomaa, että jotkin analyysiprosessit ovat saatavilla usean eri ohjelman versiona.
 

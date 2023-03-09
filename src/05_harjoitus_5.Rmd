@@ -12,13 +12,13 @@ Koulutettava oppii hyödyntämään Python-konsolia ja etsiä verkosta ohjelmoin
 
 30 minuuttia.
 
-## **Valmistautuminen**
+## Valmistautuminen
 
-Avaa uusi QGIS-projekti (**Projekti \> Uusi**) ja tallenna se nimellä **\"QGIS-harjoitus 5\"**. Lisää projektiin seuraavat aineistot:
+Avaa uusi QGIS-projekti (**Projekti \> Uusi**) ja tallenna se nimellä **"QGIS-harjoitus 5"**. Lisää projektiin seuraavat aineistot:
 
 -   **..kurssihakemisto/HSY/HSY_vaestotietoruudukko_2019.gpkg**
 
-## **Python-konsolin perusteet**
+## Python-konsolin perusteet
 
 QGISin Python-konsolin avulla voit automatisoida useita paikkatietoprosesseja QGISissä. Käytännössä pystyt nopeuttamaan useiden paikkatietoprosessien toimittamista opiskelemalla Python-ohjelmointikieltä sekä QGIS-kohtaisten PyQGIS-komentojen käyttöä.
 
@@ -43,12 +43,12 @@ Konsoli aukenee karttaikkunan alapuolelle.
 **Python-konsolissa** voit ajaa normaalia Python-koodia. Syötä ja aja ensimmäiseksi seuraava koodi:
 
 ::: code-box
-print(\'Gispo loves FOSS4G\')
+print('Gispo loves FOSS4G')
 :::
 
 ![](img/harjoitus_5/image4.png)
 
-## **Python-skriptien ajaminen: Globe Builder -lisäosan komentojen hyödyntäminen**
+## Python-skriptien ajaminen: Globe Builder -lisäosan komentojen hyödyntäminen
 
 Käyttötapauksissa, joissa nähdään hyödylliseksi Python-ohjelmointikielen hyödyntäminen QGISissä, voidaan etsiä verkosta hakukoneen avulla (esim. Google) valmiita Python-skriptejä QGISiin.
 
@@ -84,7 +84,7 @@ change_background_color(color=QtCore.Qt.black)
 
 Lue lisää komentojen hyödyntämisestä ja esimerkeistä [lisäosan GitHub-repositoriosta](https://github.com/GispoCoding/GlobeBuilder).
 
-## **Tee bufferi hyödyntäen Python-skriptiä**
+## Tee bufferi hyödyntäen Python-skriptiä
 
 Kuvittele nyt toinen paikkatiedon käyttötapaus, jossa haluat tehdä väestötietoruudukolle sisäisen bufferin seuraavan näytönkaappauksen mukaisesti:
 
