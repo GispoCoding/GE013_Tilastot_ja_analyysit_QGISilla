@@ -76,7 +76,7 @@ Huomaa: hyödynnettäesi load_natural_earth_data()-komentoa QGIS lataa ikään k
 
 ![](img/harjoitus_5/image10.png)
 
-Kokeile myös lisäosan muita toiminnallisuuksia suoraan Python-konsolista. Tutkittuasi kyseistä tekstitiedostoa löydät useamman eri toiminnallisuuden, joita tutkimalla opit hiukan Pythonin hyödyntämisestä QGISissä. Kokeile esim.  vaihtaa karttanäkymän taustaväriä mustaksi:
+Kokeile myös lisäosan muita toiminnallisuuksia suoraan Python-konsolista. Tutkittuasi kyseistä tekstitiedostoa löydät useamman eri toiminnallisuuden, joita tutkimalla opit hiukan Pythonin hyödyntämisestä QGISissä. Kokeile esim. vaihtaa karttanäkymän taustaväriä mustaksi:
 
 ::: code-box
 change_background_color(color=QtCore.Qt.black)
@@ -92,7 +92,7 @@ Kuvittele nyt toinen paikkatiedon käyttötapaus, jossa haluat tehdä väestöti
 
 Skriptin avulla voidaan tuottaa sisäinen buffer-taso väestötietoruudukolle tai jollekin muulle polygon-aineistolle käyttämättä erinäisiä käyttöliittymään pohjautuvia työkaluja bufferin toteuttamiseen. Lisäksi voi nähdä mahdollisuutena kuvitella monivaiheisen paikkatietoprosessin, jonka yhdessä vaiheessa on toteutettava sisäinen buffer aineistolle. Myös tämänkaltaisissa työprosesseissa kyseisestä skriptistä olisi huomattavasti hyötyä.
 
-Avaa **buffer.py-tiedosto Muuta-kansion** alta: 
+Avaa **buffer.py-tiedosto Muuta-kansion** alta:
 
 ![](img/harjoitus_5/image12.png)
 
