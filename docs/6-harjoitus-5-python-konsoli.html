@@ -148,7 +148,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <ul>
 <li><p>Python-kielen avulla voidaan <strong>automatisoida</strong> monia paikkatiedon prosessointiin ja analysointiin liittyviä <strong>toimintoja</strong>. Tämä nopeuttaa, helpottaa ja parantaa paikkatiedon käsittelyä.</p></li>
 <li><p>Python-kielen avulla voidaan lisätä <strong>toistettavuutta</strong> paikkatietoprosesseissa. Näin Python-komentoja seuraamalla kuka vain voi toistaa paikkatietoprosessin jälkikäteen.  </p></li>
-<li><p>Python-kielen avulla voidaan tuottaa <strong>QGIS-lisäosia</strong> (eng. plugins) organisaation tai laajempien työprosessien ratkaisemiksi.</p></li>
+<li><p>Python-kielen avulla voidaan tuottaa <strong>QGIS-lisäosia</strong> (eng. plugins) organisaation tai laajempien työprosessien ratkaisemiseksi.</p></li>
 <li><p>Python-kielen avulla voidaan tuottaa <strong>prosessointialgoritmeja</strong> (eng. processing algorithms). Näillä algoritmeilla viitataan Python-skripteihin, jotka tallennetaan QGISiin ja niistä tulee omia pientyökaluja esim. paikkatietojen prosessoinnin tehtävien toteuttamiseen.</p></li>
 </ul>
 <p>QGISissa Pythonin käyttö pohjautuu ennen kaikkea QGISin Python-konsoliin, jolla voidaan ajaa Python-komentoja. Avaa konsoli klikkaamalla <img src="img/harjoitus_5/image1.png" /> tai valikosta menemällä <strong>Lisäosat &gt; Python-konsoli</strong>.</p>
@@ -157,7 +157,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p><img src="img/harjoitus_5/image3.png" /></p>
 <p><strong>Python-konsolissa</strong> voit ajaa normaalia Python-koodia. Syötä ja aja ensimmäiseksi seuraava koodi:</p>
 <div class="code-box">
-<p>print(‘Gispo loves FOSS4G’)</p>
+<p>print('Gispo loves FOSS4G')</p>
 </div>
 <p><img src="img/harjoitus_5/image4.png" /></p>
 </div>
@@ -167,14 +167,14 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p>Ajetaan nyt yksi Python-skripti, niin näet miten Python-skriptejä voi ajaa QGISissä. Tässä haluamme nopeuttaa työprosessia, joten hyödynnämme Python-skriptiä tuottamaan karttavisualisoinnin QGISissä. Olet ehkä jo nähnyt Gispon toteuttaman <a href="https://github.com/GispoCoding/GlobeBuilder">Globe Builder -lisäosan</a>, jota kokeilemme nyt Python-konsolin kautta.</p>
 <p><img src="img/harjoitus_5/image5.png" /></p>
 <p>Lisäosaa käytetään pääasiallisesti lisäosan käyttöliittymän avulla. Käyttöliittymässä määritetään valintoja visualisaation tuottamiseksi. Haluamme nyt tuottaa maapallon muotoisen karttavisualisoinnin hyödyntäen Python-skriptiä käyttämättä lisäosan käyttöliittymää. Näin voimme mahdollisesti nopeuttaa toimiamme. Tämä olisi myös hyödyllistä mikäli tekisimme usean iteraation karttavisualisaation toteuttamiseksi tai jos hyödyntäisimme lisäosan toiminnallisuuksia osana jotakin muuta tietojärjestelmää, joka komentopohjaisesti voisi komentaa QGISiä toteuttamaan karttavisualisoinnin. Näin voisimme automatisoida työprosessejamme, minkä lisäksi kuka tahansa voi toistaa komentopohjaisen työprosessimme.</p>
-<p>Voimme nähdä haluamme koodin <a href="https://gist.github.com/Joonalai/7b8693ef904df75cb15cb9af0e82c032">GitHubista</a>, mutta se löytyy myös kurssihakemistosta <strong>Muuta-kansion</strong> alta nimellä <strong>globeBuilder.py</strong>. Kyseessä on tekstitiedosto, johon on tallennettu Python-ohjelmointikielellä muutama toiminallisuus GlobeBuilderiin liittyen.</p>
+<p>Voimme nähdä haluamamme koodin <a href="https://gist.github.com/Joonalai/7b8693ef904df75cb15cb9af0e82c032">GitHubista</a>, mutta se löytyy myös kurssihakemistosta nimellä <strong>globeBuilder.py</strong>. Kyseessä on tekstitiedosto, johon on tallennettu Python-ohjelmointikielellä muutama toiminallisuus GlobeBuilderiin liittyen.</p>
 <p>Avaa nyt kyseinen tiedosto QGISissä Python-konsoliin, konsolin koodi-editorin puolelle eli oikealle:</p>
 <p><img src="img/harjoitus_5/image6.png" /></p>
 <p>Kyseessä on lista erilaisia Python-komentoja, jotka tallennamme QGISiin ajamalla tekstitiedoston sisällön <img src="img/harjoitus_5/image7.png" />-painikkeesta. Klikkaa painiketta, joka ajaa koko komentosarjan kertaheitolla:</p>
 <p><img src="img/harjoitus_5/image8.png" /></p>
 <p>Aja nyt tiedoston omien ohjeiden (keltaisella) mukaisesti <strong>load_natural_earth_data()-komento</strong> konsolin puolella:</p>
 <p><img src="img/harjoitus_5/image9.png" /></p>
-<p>Huomaa: hyödynnettäesi load_natural_earth_data()-komentoa QGIS lataa ikään kuin automaattisesti verkosta datan ja visualisoi sen suoraan QGISissäsi. Näin näemmekin karttanäkymässämme metodin lataaman <strong>Natural Earth -aineiston</strong>:</p>
+<p>Huomaa: hyödynnettäessä load_natural_earth_data()-komentoa QGIS lataa ikään kuin automaattisesti verkosta datan ja visualisoi sen suoraan QGISissäsi. Näin näemmekin karttanäkymässämme metodin lataaman <strong>Natural Earth -aineiston</strong>:</p>
 <p><img src="img/harjoitus_5/image10.png" /></p>
 <p>Kokeile myös lisäosan muita toiminnallisuuksia suoraan Python-konsolista. Tutkittuasi kyseistä tekstitiedostoa löydät useamman eri toiminnallisuuden, joita tutkimalla opit hiukan Pythonin hyödyntämisestä QGISissä. Kokeile esim. vaihtaa karttanäkymän taustaväriä mustaksi:</p>
 <div class="code-box">
@@ -187,7 +187,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p>Kuvittele nyt toinen paikkatiedon käyttötapaus, jossa haluat tehdä väestötietoruudukolle sisäisen bufferin seuraavan näytönkaappauksen mukaisesti:</p>
 <p><img src="img/harjoitus_5/image11.png" /></p>
 <p>Skriptin avulla voidaan tuottaa sisäinen buffer-taso väestötietoruudukolle tai jollekin muulle polygon-aineistolle käyttämättä erinäisiä käyttöliittymään pohjautuvia työkaluja bufferin toteuttamiseen. Lisäksi voi nähdä mahdollisuutena kuvitella monivaiheisen paikkatietoprosessin, jonka yhdessä vaiheessa on toteutettava sisäinen buffer aineistolle. Myös tämänkaltaisissa työprosesseissa kyseisestä skriptistä olisi huomattavasti hyötyä.</p>
-<p>Avaa <strong>buffer.py-tiedosto Muuta-kansion</strong> alta:</p>
+<p>Avaa <strong>buffer.py-tiedosto </strong> kurssihakemistosta:</p>
 <p><img src="img/harjoitus_5/image12.png" /></p>
 <p>Tarkastele koodia ja huomioi, että tiedostopolut viittaavat kurssikansioosi. Koodissa on kommentteina eri komentojen toiminnot, lue ne ja kysy kouluttajalta tarvittaessa lisätietoa.</p>
 <p>Ennen skriptin ajamista varmista, että sinulla on <strong>vaestotietoruudukko_2019-taso</strong> valittuna tasoluettelossa ja koodin alussa oikea tuloshakemisto valittuna. Sinun pitää muokata tuloshakemisto oman kansiorakenteesi mukaiseksi. </p>
